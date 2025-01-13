@@ -7,7 +7,7 @@
 average_first_semester = float(input("Nhap diem trung binh hoc ki 1: "))
 average_second_semester = float(input("Nhap diem trung binh hoc ki 2: "))
 
-average_year = (average_first_semester + average_first_semester*2) / 3
+average_year = (average_first_semester + average_second_semester*2) / 3
 
 print("Diem trung binh ca nam: %.2f" % average_year, end=" | ")
 
